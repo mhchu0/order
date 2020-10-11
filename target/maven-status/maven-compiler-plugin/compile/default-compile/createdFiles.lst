@@ -1,0 +1,14 @@
+equipmgnt\OrderApplication.class
+equipmgnt\AbstractEvent$1.class
+equipmgnt\PolicyHandler.class
+equipmgnt\Ordered.class
+equipmgnt\OrderCanceled.class
+equipmgnt\external\ApprovalService.class
+equipmgnt\config\kafka\KafkaProcessor.class
+equipmgnt\Order.class
+equipmgnt\OrderRepository.class
+equipmgnt\ApprovalObtained.class
+equipmgnt\AbstractEvent.class
+equipmgnt\CancelRequested.class
+equipmgnt\OrderController.class
+equipmgnt\external\Approval.class
