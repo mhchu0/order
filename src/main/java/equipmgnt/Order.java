@@ -28,11 +28,7 @@ public class Order {
     @PostPersist
     public void onPostPersist(){
 
-        try {
-            Thread.currentThread().sleep((long) (800 + Math.random() * 220));
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         Ordered ordered = new Ordered();
         BeanUtils.copyProperties(this, ordered);
         ordered.publishAfterCommit();
